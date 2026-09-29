@@ -93,3 +93,16 @@ Need = Maximum - Allocation
 - CPU scheduling process IDs use `P1`, `P2`, etc.
 - Banker's Algorithm uses conventional `P0`, `P1`, etc. notation.
 - The source code includes comments explaining the implementation.
+
+
+## Sample Execution Screenshots
+
+### FCFS — Sample Input and Output
+
+![FCFS Sample Input and Output](fcfs_sample_input_output.png)
+
+### Round Robin — Sample Input and Output
+
+![Round Robin Sample Input and Output](round_robin_sample_input_output.png)
+
+These screenshots show the console inputs entered by the user together with the resulting Gantt chart, process table, Average Waiting Time, and Average Turnaround Time.
