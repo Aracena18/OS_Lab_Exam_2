@@ -12,3 +12,9 @@ SUBMISSION CONTENTS
 6. README.md
 
 The program was executed successfully using Python 3.
+
+7. fcfs_sample_input_output.png
+   - Screenshot showing FCFS sample console input and output
+
+8. round_robin_sample_input_output.png
+   - Screenshot showing Round Robin sample console input and output
