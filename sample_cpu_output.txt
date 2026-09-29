@@ -1,0 +1,82 @@
+
+======================================================================
+OPERATING SYSTEMS LAB EXAM
+======================================================================
+1. CPU Scheduling
+2. Banker's Algorithm
+3. Exit
+Choose an option: 
+======================================================================
+CPU SCHEDULING
+======================================================================
+1. FCFS (Non-Preemptive)
+2. Round Robin (Preemptive)
+3. Back to Main Menu
+Choose an option: Enter number of processes: 
+Enter arrival time and burst time for each process.
+P1 Arrival Time: P1 Burst Time: P2 Arrival Time: P2 Burst Time: P3 Arrival Time: P3 Burst Time: P4 Arrival Time: P4 Burst Time: 
+======================================================================
+FCFS - NON-PREEMPTIVE CPU SCHEDULING
+======================================================================
+
+GANTT CHART
+------------------------------------------------------------
+P1 [0-5] | P2 [5-8] | P3 [8-9] | P4 [9-11]
+------------------------------------------------------------
+
+PROCESS TABLE
+Process   AT      BT      CT      TAT       WT
+----------------------------------------------------
+P1        0       5       5       5         0
+P2        1       3       8       7         4
+P3        2       1       9       7         6
+P4        4       2       11      7         5
+----------------------------------------------------
+Average Waiting Time    : 3.75
+Average Turnaround Time : 6.50
+
+======================================================================
+CPU SCHEDULING
+======================================================================
+1. FCFS (Non-Preemptive)
+2. Round Robin (Preemptive)
+3. Back to Main Menu
+Choose an option: Enter number of processes: 
+Enter arrival time and burst time for each process.
+P1 Arrival Time: P1 Burst Time: P2 Arrival Time: P2 Burst Time: P3 Arrival Time: P3 Burst Time: P4 Arrival Time: P4 Burst Time: 
+Enter Time Quantum: 
+======================================================================
+ROUND ROBIN - PREEMPTIVE CPU SCHEDULING (Quantum = 2)
+======================================================================
+
+GANTT CHART
+------------------------------------------------------------
+P1 [0-2] | P2 [2-4] | P3 [4-5] | P1 [5-7] | P4 [7-9] | P2 [9-10] | P1 [10-11]
+------------------------------------------------------------
+
+PROCESS TABLE
+Process   AT      BT      CT      TAT       WT
+----------------------------------------------------
+P1        0       5       11      11        6
+P2        1       3       10      9         6
+P3        2       1       5       3         2
+P4        4       2       9       5         3
+----------------------------------------------------
+Average Waiting Time    : 4.25
+Average Turnaround Time : 7.00
+
+======================================================================
+CPU SCHEDULING
+======================================================================
+1. FCFS (Non-Preemptive)
+2. Round Robin (Preemptive)
+3. Back to Main Menu
+Choose an option: 
+======================================================================
+OPERATING SYSTEMS LAB EXAM
+======================================================================
+1. CPU Scheduling
+2. Banker's Algorithm
+3. Exit
+Choose an option: 
+Program terminated. Thank you!
