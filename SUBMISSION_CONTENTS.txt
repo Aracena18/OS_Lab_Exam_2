@@ -1,0 +1,14 @@
+SUBMISSION CONTENTS
+
+1. os_lab_exam.py
+   - FCFS (Non-Preemptive)
+   - Round Robin (Preemptive)
+   - Banker's Algorithm
+
+2. sample_cpu_input.txt
+3. sample_cpu_output.txt
+4. sample_banker_output.txt
+5. bankers_algorithm_output_screenshot.png
+6. README.md
+
+The program was executed successfully using Python 3.
